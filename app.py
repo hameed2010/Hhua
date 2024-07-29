@@ -11,6 +11,7 @@ translator = Translator()
 CHANNEL_USERNAME = '@zxgn1'
 CHANNEL_ID = '@tmx778'
 bot = telebot.TeleBot("7221290774:AAFEMq1QstbyXvtjTZecJ3zTag4E3WjW70I")
+bot.set_webhook()
 user_threads = {}
 def extract_numbers(text):
     numbers = re.findall(r'\d+', text)
