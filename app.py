@@ -6,6 +6,9 @@ import json
 import threading
 import requests 
 from googletrans import Translator
+from keep_alive import keep_alive
+
+keep_alive()
 
 translator = Translator()
 CHANNEL_USERNAME = '@zxgn1'
