@@ -209,7 +209,7 @@ def emali_bot(message):
     
 
 def my_function(chat_id,name,age,emali):
-    while True:
+    for i in range(30):
         birtakipci(name,age,emali,url1,url11)
         print(f"بدأ تشغيل الدالة بواسطة الخيط الخاص بالمستخدم {chat_id}")
         birtakipci(name,age,emali,url2,url22)
