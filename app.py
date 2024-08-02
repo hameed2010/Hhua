@@ -10,6 +10,8 @@ from keep_alive import keep_alive
 
 
 
+keep_alive()
+
 translator = Translator()
 CHANNEL_USERNAME = '@zxgn1'
 CHANNEL_ID = '@tmx778'
@@ -209,7 +211,7 @@ def emali_bot(message):
     
 
 def my_function(chat_id,name,age,emali):
-    for i in range(30):
+    while True:
         birtakipci(name,age,emali,url1,url11)
         print(f"بدأ تشغيل الدالة بواسطة الخيط الخاص بالمستخدم {chat_id}")
         birtakipci(name,age,emali,url2,url22)
