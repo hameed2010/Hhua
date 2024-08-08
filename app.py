@@ -241,7 +241,7 @@ def my_function(chat_id,name,age,emali):
 
         birtakipci(name,age,emali,url13,url133)
 
-        birtakipci(name,age,emali,url14,url144)
+    
 
         birtakipci(name,age,"anas70218",url15,url155)
 
